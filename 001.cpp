@@ -1,11 +1,11 @@
-#### Aşağıdaki kaynak koddaki her bir sentaks hatasını
+// #### Aşağıdaki kaynak koddaki her bir sentaks hatasını
 
-+ C dilinin kurallarına göre
-+ C++ dilinin kurallarına 
+// + C dilinin kurallarına göre
+// + C++ dilinin kurallarına 
 
-#### belirleyiniz. Her bir sentaks hatasının nedenini açıklayınız:
+// #### belirleyiniz. Her bir sentaks hatasının nedenini açıklayınız:
 
-```
+// ```
 #include <stdlib.h>
 
 enum Color {Blue, Red, Yellow};
@@ -55,6 +55,6 @@ int main()
 	int *p4 = 0;
 	int *p5 = NULL;
 }
-```
+// ```
 
-[ödevin cevabı](https://www.youtube.com/watch?v=pEAOVqTTGOQ)
+// [ödevin cevabı](https://www.youtube.com/watch?v=pEAOVqTTGOQ)
