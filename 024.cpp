@@ -1,29 +1,15 @@
 // #### C++17 standartlarına göre aşağıdaki C++ programı çalıştırıldığında bu programın çıktısı ne olur?
 
-
 // ```
 // #include <iostream>
  
-// void f(int) 
-// {
-// 	std::cout << "int";
-// }
- 
-// void f(long)
-// {
-// 	std::cout << "long";
-// }
- 
-// void f(double)
-// { 
-// 	std::cout << "double";
-// }
+// void func(char* &) { std::cout << 'A'; }
+// void func(char* &&) { std::cout << 'B'; }
  
 // int main()
 // {
-// 	f(static_cast<double>((sizeof(int))));
- 
-// 	return 0;
+// 	char c{ 'c' };
+// 	func(&c);
 // }
 // ```
 
@@ -33,4 +19,4 @@
 // + Tanımsız davranış *(undefined behavior)*
 // + Derleyiciye göre değişir *(implementation defined)*
 
-// [ödev cevabı](https://www.youtube.com/watch?v=q4pxYctYKDQ&list=PLL6uEfc2ZSZVQQUdzaMxZje66PlfmxDXi&index=9)
+// [ödev cevabı](https://www.youtube.com/watch?v=GsuQ_AEhjRw)
